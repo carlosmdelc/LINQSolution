@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{49F49683-A536-4E85-B5AB-2FEF4A1C65F1}</ProjectGuid>
+    <ProjectGuid>{7B3C5488-4F37-4DAC-BAAD-37EBBE46569C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LINQList</RootNamespace>
-    <AssemblyName>LINQList</AssemblyName>
+    <RootNamespace>LINQExamples</RootNamespace>
+    <AssemblyName>LINQExamples</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Customer.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="EntryPoint.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="YoungPerson.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
